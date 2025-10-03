@@ -51,7 +51,7 @@ class savingAccount extends Account {
   }
   applyInterest() {
     const interest = this.getBalance() * this.interestRate;
-    this.deposit(interest);
+    super.deposit(interest);
   }
 }
 

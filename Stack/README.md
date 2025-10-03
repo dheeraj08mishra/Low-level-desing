@@ -1,0 +1,3 @@
+- Class: Stack
+- Private field: #items = []
+- Methods: push(), pop(), peek(), isEmpty(), size().
